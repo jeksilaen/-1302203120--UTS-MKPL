@@ -22,4 +22,14 @@ public class Family {
 		childNames.add(childName);
 		childIdNumbers.add(childIdNumber);
 	}
+
+	public String getSpouseIdNumber() {
+		return spouseIdNumber;
+	}
+
+	public int getChildIdNumbers() {
+		return childIdNumbers.size();
+	}
+
+	
 }
