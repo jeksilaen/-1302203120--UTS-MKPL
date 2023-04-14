@@ -7,23 +7,11 @@ import java.util.List;
 
 public class Employee {
 
-	private String employeeId;
-	private String firstName;
-	private String lastName;
-	private String idNumber;
-	private String address;
+	private Personal personal
 	
 	private LocalDate joinedDate;
 
 	private int monthWorkingInYear;
-	
-	private boolean isForeigner;
-	
-	public enum Gender {
-		PRIA,
-		WANITA
-	}
-	private Gender gender;
 	
 	private int monthlySalary;
 	private int otherMonthlyIncome;
