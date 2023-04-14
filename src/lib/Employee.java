@@ -7,15 +7,12 @@ import java.util.List;
 
 public class Employee {
 
-	private Personal personal
+	private Personal personal;
+	private Employment employment;
 	
-	private LocalDate joinedDate;
-
 	private int monthWorkingInYear;
 	
-	private int monthlySalary;
-	private int otherMonthlyIncome;
-	private int annualDeductible;
+	
 	
 	private String spouseName;
 	private String spouseIdNumber;
