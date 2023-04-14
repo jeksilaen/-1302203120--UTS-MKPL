@@ -30,6 +30,6 @@ public class Employee {
 			monthWorkingInYear = 12;
 		}
 		
-		return TaxFunction.calculateTax(employment, family);
+		return TaxFunction.calculateTax(employment, family, monthWorkingInYear);
 	}
 }
