@@ -30,7 +30,6 @@ public class Employee {
 			monthWorkingInYear = 12;
 		}
 		
-		return TaxFunction.calculateTax(employment.getMonthlySalary(), employment.getOtherMonthlyIncome(), monthWorkingInYear, employment.getAnnualDeductible(), family.getSpouseIdNumber().equals(""), family
-		.getChildIdNumbers());
+		return TaxFunction.calculateTax(employment, family, monthWorkingInYear);
 	}
 }
